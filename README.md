@@ -11,4 +11,28 @@ Os SLAs são compromissos contratuais que definem o nível mínimo de qualidade 
 Além disso, aprendi que a escolha de configurações de alta disponibilidade, como a distribuição de aplicativos em múltiplas regiões ou zonas, pode garantir níveis de SLA superiores, chegando a 99,99% ou mais, dependendo do serviço contratado. Isso reflete diretamente na confiabilidade das aplicações, mitigando interrupções e garantindo uma melhor experiência ao usuário final.
 
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Tipos de Serviço de nuvem - Laboratório.
+
+Na aula, foram abordados os principais conceitos e práticas para a criação e gerenciamento de máquinas virtuais (VMs) no Azure. O conteúdo foi dividido nos seguintes tópicos principais:
+
+Na aula, foram abordados os principais conceitos e práticas para a criação e gerenciamento de máquinas virtuais (VMs), banco de dados, e estratégias de backup no Azure. O conteúdo foi dividido nos seguintes tópicos:
+
+1. Criação de Máquinas Virtuais no Azure
+
+2. Imagens de Máquina Virtual
+
+3. Arquitetura de VMs
+
+4. Criação de Banco de Dados no Azure
+
+5. Tipos de Backup no Azure
+
+   Foi dada maior ênfase a criação d ebanco de dados onde foram abordados os subtópicos.
+
+a)Escolha do tipo de banco de dados com base na aplicação.
+b)Seleção de tamanho, escalabilidade e região.
+c)Configuração de usuários, autenticação e permissões.
+d)Backup e Recuperação:
+e)Azure oferece backups automáticos com pontos de restauração configuráveis.
+f)Restauração de banco de dados para uma nova instância em caso de falhas.
 
