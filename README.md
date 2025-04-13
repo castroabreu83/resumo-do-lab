@@ -1,6 +1,6 @@
 # resumo-do-lab
 Este repositório contém o resumo das lições aprendidas durante o desenvolvimento do lab na DIO
---------------------------------------------------------------------------------------------------------------------------------------------------------------------
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------
 Benefícios da nuvem - Laboratório.
 
 No laboratório "Benefícios da Nuvem", tive a oportunidade de explorar os principais conceitos relacionados à computação em nuvem e como a plataforma Microsoft Azure se destaca nesse cenário. Um dos pontos mais marcantes foi o aprendizado sobre os Acordos de Nível de Serviço (SLAs) oferecidos pela Microsoft Azure.
@@ -9,7 +9,7 @@ Os SLAs são compromissos contratuais que definem o nível mínimo de qualidade 
 
 Além disso, aprendi que a escolha de configurações de alta disponibilidade, como a distribuição de aplicativos em múltiplas regiões ou zonas, pode garantir níveis de SLA superiores, chegando a 99,99% ou mais, dependendo do serviço contratado. Isso reflete diretamente na confiabilidade das aplicações, mitigando interrupções e garantindo uma melhor experiência ao usuário final.
 
------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------
 Tipos de Serviço de nuvem - Laboratório.
 
 Na aula, foram abordados os principais conceitos e práticas para a criação e gerenciamento de máquinas virtuais (VMs) no Azure. O conteúdo foi dividido nos seguintes tópicos principais:
@@ -35,7 +35,7 @@ d)Backup e Recuperação:
 e)Azure oferece backups automáticos com pontos de restauração configuráveis.
 f)Restauração de banco de dados para uma nova instância em caso de falhas.
 
----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------
 Componentes de arquitetura do Azure - Laboratório.
 
 Criar grupos de recursos
@@ -186,5 +186,61 @@ Relatórios de segurança e risco
 Suporte a políticas de Zero Trust
 
 Conformidade com GDPR, ISO, SOC e outros padrões
+
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------
+O Azure TCO Calculator (Calculadora de Custo Total de Propriedade) é uma ferramenta gratuita da Microsoft que ajuda você a entender quanto pode economizar ao migrar do ambiente local (on-premises) para a nuvem Azure.
+
+Ele não mostra preços de serviços individuais, mas sim uma comparação completa entre os custos atuais do seu datacenter e os custos estimados na nuvem.
+
+🎯 Para que serve?
+O TCO Calculator serve para:
+
+Avaliar economias de longo prazo ao migrar para o Azure
+
+Justificar uma decisão de migração com dados financeiros claros
+
+Apresentar os custos atuais vs. custos no Azure
+
+Apoiar gestores e times de TI na tomada de decisão estratégica
+
+🧮 O que ele considera na análise?
+A ferramenta avalia o custo atual do seu ambiente local, incluindo:
+
+Custo On-Premises	Custo no Azure
+Hardware	Máquinas Virtuais
+Licenças de software	Licenciamento em nuvem
+Energia elétrica	Inclusa no custo do Azure
+Mão de obra e suporte	Automatização e gestão simplificada
+Espaço físico	Eliminado na nuvem
+Você insere informações como:
+
+Número de servidores
+
+Capacidade de armazenamento atual
+
+Custos com pessoal de TI
+
+Energia e refrigeração
+
+Licenças de software
+
+E o resultado é um relatório claro, com gráficos e estimativas, mostrando:
+
+Custo total atual (on-premises)
+
+Custo estimado no Azure
+
+Economia projetada em 1, 3 e 5 anos
+
+🆚 Diferença entre TCO Calculator e Calculadora de Preços do Azure:
+
+Azure TCO Calculator	            |    Calculadora de Preços do Azure
+-----------------------------------------------------------------------
+Estima economia de migração	   |    Estima custo mensal de uso
+Foco em ambientes on-premises	   |    Foco em serviços individuais no Azure
+Custo total em longo prazo	      |    Custo específico por serviço
+Usa dados do ambiente atual	   |    Usa configurações que você deseja contratar
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 
