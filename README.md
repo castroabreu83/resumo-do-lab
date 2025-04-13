@@ -323,3 +323,123 @@ Governança e conformidade: ajuda a atender normas como LGPD e GDPR
 Purview é ideal para organizações que lidam com dados confidenciais e precisam gerenciar o ciclo de vida e a segurança da informação.
 
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+O Azure Resource Manager (ARM) é o serviço de gerenciamento de recursos que permite implantar, atualizar e gerenciar recursos do Azure. Ele oferece uma interface unificada e permite organizar, controlar o acesso e aplicar políticas aos recursos.
+
+Características:
+Modelos ARM (JSON): Para implantar recursos de maneira declarativa.
+
+Suporte a grupos de recursos: Organiza e gerencia recursos.
+
+Controle de acesso e políticas: Implementa RBAC e políticas para governança.
+
+🔧 2. Azure Bicep
+O que é?
+O Azure Bicep é uma linguagem de infraestrutura como código (IaC) desenvolvida pela Microsoft, que simplifica a criação de modelos do Azure Resource Manager (ARM).
+
+Características:
+Sintaxe simplificada em comparação com o formato JSON.
+
+100% compatível com ARM.
+
+Suporte a validação e intellisense para facilitar a escrita de scripts.
+
+Melhor legibilidade e menos verboso do que JSON.
+
+🔧 3. Terraform
+O que é?
+O Terraform é uma ferramenta de infraestrutura como código (IaC) de código aberto que permite criar, modificar e versionar a infraestrutura de maneira segura e eficiente. Embora o Terraform seja multi-cloud, ele também oferece integração nativa com o Azure.
+
+Características:
+Suporta várias plataformas de nuvem: Azure, AWS, GCP, entre outras.
+
+State files: Mantém o estado da infraestrutura e detecta mudanças.
+
+Modularidade: Facilita a reutilização de código.
+
+HCL (HashiCorp Configuration Language): Linguagem própria para definição de infraestrutura.
+
+🔧 4. Azure DevOps
+O que é?
+Azure DevOps é um conjunto de serviços para planejamento de projetos, desenvolvimento, teste e implantação de aplicativos.
+
+Características:
+Pipelines de CI/CD: Automatiza o ciclo de vida de desenvolvimento e implantação.
+
+Repos Git: Controle de versão e colaboração de código.
+
+Boards: Gerenciamento de tarefas e backlog de projetos.
+
+Artifactory: Gerenciamento de pacotes e dependências.
+
+🔧 5. GitHub Actions
+O que é?
+GitHub Actions permite automatizar fluxos de trabalho de integração e entrega contínua (CI/CD) diretamente no GitHub.
+
+Características:
+Automação baseada em GitHub: Integra-se diretamente ao repositório do GitHub.
+
+Customização: Criação de workflows para testes, builds e deploys.
+
+Suporte a múltiplos ambientes e múltiplas nuvens, incluindo o Azure.
+
+🔧 6. Azure CLI (Command-Line Interface)
+O que é?
+A Azure CLI é uma ferramenta de linha de comando que facilita o gerenciamento e a automação de tarefas do Azure. Ela permite que você implante e gerencie recursos do Azure diretamente do terminal.
+
+Características:
+Fácil de usar para quem prefere linha de comando.
+
+Cross-platform: Funciona no Windows, Linux e macOS.
+
+Integração com scripts e automação.
+
+Apoio completo ao gerenciamento de recursos do Azure.
+
+🔧 7. Azure PowerShell
+O que é?
+Azure PowerShell é um conjunto de cmdlets para gerenciar e automatizar recursos do Azure usando o PowerShell.
+
+Características:
+Automação de tarefas do Azure diretamente via PowerShell.
+
+Suporte completo a recursos e operações do Azure.
+
+Compatível com scripts e tarefas de automação em ambientes Windows.
+
+Uso intensivo em ambientes corporativos que já adotam PowerShell como ferramenta principal.
+
+🔧 8. Azure Automation
+O que é?
+Azure Automation é uma plataforma de automação e gerenciamento que permite implantar, gerenciar e monitorar a infraestrutura e recursos do Azure.
+
+Características:
+Runbooks: Scripts que automatizam tarefas repetitivas.
+
+Gerenciamento de patches: Automatiza a instalação de patches em máquinas virtuais.
+
+Azure Automation State Configuration: Configuração e gerenciamento de máquinas com base em políticas.
+
+🔧 9. Azure Resource Mover
+O que é?
+O Azure Resource Mover é uma ferramenta para mover recursos de um datacenter do Azure para outro dentro da mesma região ou entre regiões diferentes, sem precisar desimplantar e recriar os recursos.
+
+Características:
+Mover recursos de forma simples.
+
+Minimizar downtime durante o processo de movimentação.
+
+Suporte a vários tipos de recursos (VMs, redes, etc.).
+
+🔧 10. Azure Site Recovery
+O que é?
+O Azure Site Recovery permite recuperação de desastres e continuidade de negócios para máquinas virtuais e outros serviços.
+
+Características:
+Replicação de dados e máquinas virtuais para uma região de recuperação.
+
+Failover automatizado em caso de falhas graves.
+
+Suporte a ambientes híbridos e multi-nuvem.
+
+
