@@ -442,4 +442,27 @@ Failover automatizado em caso de falhas graves.
 
 Suporte a ambientes híbridos e multi-nuvem.
 
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------
+No Azure, os dashboards são ferramentas essenciais para monitorar e gerenciar seus recursos e serviços. Quatro componentes-chave que oferecem insights detalhados e personalizados são o Azure Monitor, o Azure Service Health, o Azure Advisor e os dashboards personalizados.​
+
+1. Azure Monitor:
+
+O Azure Monitor é uma solução abrangente de monitoramento que coleta, analisa e responde a dados de monitoramento de seus ambientes na nuvem e locais. Ele ajuda a maximizar a disponibilidade e o desempenho de seus aplicativos e serviços, fornecendo insights sobre a operação e a integridade de seus recursos. O Monitor coleta dados de métricas, logs e eventos, permitindo que você visualize e analise o desempenho de suas aplicações e infraestrutura. ​
+
+2. Azure Service Health:
+
+O Azure Service Health mantém você informado sobre incidentes de serviço, manutenção planejada e avisos de saúde que podem afetar seus recursos do Azure. Ele oferece alertas personalizados e orientações para ajudá-lo a responder rapidamente a problemas que impactam seus serviços. Com o Service Health, você pode configurar alertas para ser notificado sobre problemas ativos e manutenção futura, garantindo que sua equipe esteja sempre informada sobre o estado dos serviços. ​
+
+3. Azure Advisor:
+
+O Azure Advisor é um serviço que fornece recomendações personalizadas para ajudar a melhorar a confiabilidade, segurança e desempenho de seus recursos do Azure. Ele analisa suas configurações e uso do Azure para oferecer sugestões práticas que podem economizar custos e aprimorar a eficiência operacional. As recomendações cobrem áreas como alta disponibilidade, segurança, desempenho e eficiência de custo.​
+
+4. Dashboards Personalizados:
+
+No Azure, você pode criar dashboards personalizados no portal para exibir visualmente dados relevantes de monitoramento, métricas e alertas. Esses dashboards podem incluir gráficos, métricas e logs que fornecem uma visão consolidada do estado e desempenho de seus recursos. Por exemplo, você pode criar um dashboard que combine métricas de desempenho do Azure Monitor com alertas do Service Health e recomendações do Advisor, oferecendo uma visão holística de seu ambiente. ​
+
+Integrando e utilizando esses componentes, você pode obter uma visão completa e detalhada do estado de seus serviços no Azure, permitindo uma gestão proativa e informada de seus recursos.
+
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
 
