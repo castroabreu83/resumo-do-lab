@@ -1,7 +1,6 @@
 # resumo-do-lab
 Este repositório contém o resumo das lições aprendidas durante o desenvolvimento do lab na DIO
-Durante meu aprendizado na DIO, aprofundei meus conhecimentos sobre o portal Azure, incluindo o processo de criação de contas e o uso da calculadora Azure para estimativas de custos. Além disso, compreendi os conceitos de CAPEX (Capital Expenditures) e OPEX (Operational Expenditures), fundamentais para a gestão de recursos em ambientes de nuvem.
------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------
 Benefícios da nuvem - Laboratório.
 
 No laboratório "Benefícios da Nuvem", tive a oportunidade de explorar os principais conceitos relacionados à computação em nuvem e como a plataforma Microsoft Azure se destaca nesse cenário. Um dos pontos mais marcantes foi o aprendizado sobre os Acordos de Nível de Serviço (SLAs) oferecidos pela Microsoft Azure.
@@ -76,9 +75,72 @@ Para personalizar as informações exibidas para os grupos de recursos, configur
 ![image](https://github.com/user-attachments/assets/6f7aa0bd-8096-4a8b-8fd8-2fb2f9ff9f42)
 
 
----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Principais Tipos de Armazenamento no Azure
+1. Blob Storage
+Ideal para armazenar dados não estruturados: imagens, vídeos, backups, logs, documentos etc.
 
+Tipos de blobs:
 
+Block Blob (mais comum – arquivos)
+
+Append Blob (logs, dados contínuos)
+
+Page Blob (discos de VMs)
+
+Suporta integração com CDN, replicação e políticas de acesso.
+
+2. File Storage (Azure Files)
+Compartilhamento de arquivos baseado em nuvem, acessível via SMB e NFS.
+
+Pode ser mapeado como unidade de rede em Windows, Linux e Mac.
+
+Excelente para substituir servidores de arquivos locais.
+
+3. Queue Storage
+Armazena mensagens para comunicação assíncrona entre componentes de aplicativos.
+
+Usado em sistemas distribuídos, filas de trabalho e processamento em segundo plano.
+
+4. Table Storage
+Banco NoSQL para armazenar grandes volumes de dados estruturados e com acesso rápido.
+
+Ideal para logs, catálogos e dados que não exigem relações complexas.
+
+5. Disk Storage
+Discos gerenciados usados por máquinas virtuais (VMs).
+
+Tipos: HDD padrão, SSD padrão e SSD premium.
+
+Oferece alta performance e durabilidade.
+
+🔐 Segurança e Redundância
+O Azure Storage oferece:
+
+Criptografia em repouso (Storage Service Encryption)
+
+Controle de acesso com RBAC e SAS Tokens
+
+Replicação automática dos dados, com opções como:
+
+LRS (Local)
+
+ZRS (Zona)
+
+GRS (Geo)
+
+RA-GRS (Leitura georredundante)
+
+⚙️ Ferramentas e Acessos
+Portal Azure – interface gráfica para gerenciamento
+
+Azure CLI / PowerShell – comandos automatizados
+
+AzCopy – ferramenta de linha de comando para transferir dados
+
+SDKs e APIs REST – integração com apps e sistemas
+
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 
 
