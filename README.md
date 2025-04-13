@@ -142,6 +142,49 @@ SDKs e APIs REST – integração com apps e sistemas
 
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
+O que dá para fazer com o Entra ID?
+✅ Autenticação e Acesso
+Login seguro com MFA (autenticação multifator)
 
+Single Sign-On (SSO) para acessar diversos aplicativos com um único login
+
+Suporte a logins com biometria, senha, chave de segurança ou app autenticador
+
+✅ Gerenciamento de Identidades
+Criar e gerenciar usuários, grupos e funções
+
+Atribuir permissões e políticas de acesso baseadas em função (RBAC)
+
+✅ Acesso Condicional
+Permite definir regras de segurança, como:
+
+"Se o usuário estiver fora do país, pedir MFA"
+
+"Se estiver em um dispositivo não confiável, bloquear o acesso"
+
+✅ Integração com Apps
+Funciona com apps SaaS como:
+
+Microsoft 365
+
+Salesforce
+
+Zoom
+
+GitHub
+
+Também suporta aplicativos personalizados usando OAuth, OpenID Connect ou SAML
+
+✅ Identidade Híbrida
+Pode ser integrado com o Active Directory local (AD DS), permitindo uma identidade unificada com sincronização de usuários.
+
+🛡️ Segurança e Conformidade
+Microsoft Defender for Identity integrado
+
+Relatórios de segurança e risco
+
+Suporte a políticas de Zero Trust
+
+Conformidade com GDPR, ISO, SOC e outros padrões
 
 
