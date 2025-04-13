@@ -243,4 +243,83 @@ Usa dados do ambiente atual	   |    Usa configurações que você deseja contrat
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------
 
+O Service Trust Portal (STP) é uma plataforma da Microsoft que fornece transparência e informações detalhadas sobre segurança, conformidade e privacidade dos serviços em nuvem da Microsoft, incluindo Azure, Microsoft 365 e Dynamics 365.
 
+✨ Principais recursos do STP:
+Relatórios de auditoria e conformidade (como ISO, SOC, NIST)
+
+Detalhes sobre como a Microsoft protege os dados
+
+Acesso ao Compliance Manager, que ajuda empresas a rastrearem sua própria conformidade
+
+Biblioteca de documentos com Guias de Segurança, Avaliações de Risco e Controles de Segurança
+
+📍 Acesso: https://servicetrust.microsoft.com
+
+📜 Certificações, Regulamentos e Padrões
+No STP, você encontra certificações reconhecidas internacionalmente, que mostram que a Microsoft cumpre os principais padrões de segurança e privacidade, como:
+
+ISO/IEC 27001, 27017, 27018 — Segurança da informação e proteção de dados na nuvem
+
+SOC 1, SOC 2, SOC 3 — Relatórios de controles internos
+
+GDPR (Europa) e LGPD (Brasil) — Regulamentações de privacidade de dados
+
+FedRAMP, NIST, CSA STAR — Normas dos EUA para serviços governamentais e em nuvem
+
+HIPAA — Requisitos para dados de saúde
+
+Essas certificações são importantes para empresas que precisam garantir conformidade legal e segurança dos dados ao usar o Azure.
+
+📂 Documentos Aplicáveis
+Esses documentos estão disponíveis no STP e incluem:
+
+Relatórios de Auditoria (SOC, ISO)
+
+Avaliações de Risco
+
+Guias de Implementação Segura
+
+Relatórios de Impacto da Privacidade
+
+Listas de Controles de Segurança
+
+Esses materiais ajudam profissionais de compliance, jurídico e TI a tomar decisões informadas sobre a adoção dos serviços Microsoft.
+
+🗂️ Resource Groups (Grupos de Recursos)
+No Azure, um Resource Group é uma unidade lógica que agrupa recursos relacionados de uma aplicação (como VMs, bancos de dados, redes, etc.).
+
+Benefícios:
+Gerenciamento centralizado: aplicar tags, políticas e permissões
+
+Organização lógica de recursos por projeto, ambiente ou aplicação
+
+Permite monitorar e controlar custos de forma separada
+
+Pode ser usado para implantar, atualizar ou deletar recursos em lote
+
+🔒 Locks (Bloqueios de Recursos)
+Os Resource Locks são usados para proteger recursos contra modificações ou exclusões acidentais. Podem ser aplicados a recursos individuais ou grupos inteiros.
+
+Tipos de bloqueio:
+ReadOnly (Somente Leitura): impede modificações ou ações operacionais (como iniciar/encerrar VMs)
+
+CanNotDelete (Não pode excluir): impede que o recurso seja excluído, mas permite edições
+
+Esses bloqueios são importantes para manter a integridade de ambientes críticos.
+
+📊 Microsoft Purview
+O Microsoft Purview é um conjunto de soluções para governança de dados, conformidade, proteção da informação e gerenciamento de riscos.
+
+Recursos do Purview:
+Catálogo de dados: permite mapear, classificar e entender onde estão os dados
+
+Data Loss Prevention (DLP): evita vazamentos de dados sensíveis
+
+Gerenciamento de riscos internos: detecta comportamentos suspeitos
+
+Governança e conformidade: ajuda a atender normas como LGPD e GDPR
+
+Purview é ideal para organizações que lidam com dados confidenciais e precisam gerenciar o ciclo de vida e a segurança da informação.
+
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------
